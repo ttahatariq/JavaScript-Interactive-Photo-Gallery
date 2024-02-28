@@ -21,15 +21,15 @@ body {
 }
 
 .preview {
-	width: calc(33.33% - 20px); /* Adjusted width to fit three images in a row with some margin between them */
-	margin: 0 10px; /* Added margin between images */
+	width: calc(33.33% - 20px); 
+	margin: 0 10px; 
 	border: 10px solid black;
-	display: inline-block; /* Ensures images are displayed inline */
+	display: inline-block; 
 }
 
 .row {
-	text-align: center; /* Centers the images within the row */
-	margin-bottom: 20px; /* Adds space between rows */
-	white-space: nowrap; /* Prevents images from wrapping to the next line */
-	overflow-x: auto; /* Enables horizontal scrolling if the images exceed the viewport */
+	text-align: center; 
+	margin-bottom: 20px; 
+	white-space: nowrap;
+	overflow-x: auto; 
 }
